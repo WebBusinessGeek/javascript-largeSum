@@ -177,10 +177,10 @@ describe("findXAmountOfCharactersFromSumOfBrokenString", function() {
             "20849603980134001723930671666823555245252804609722" +
             "53503534226472524250874054075591789781264330331690";
         var positionToBreakStringUp = 50;
-        var amountOfCharactersToReturnFromSum = 10;
+        var amountOfCharactersToReturnFromSum = 11;
 
         var result = algo.findXAmountOfCharactersFromSumOfBrokenString(stringToBreakUp, positionToBreakStringUp, amountOfCharactersToReturnFromSum);
-        var correct = '136';
+        var correct = '5.537376230';
 
         expect(result).toBe(correct);
     })
