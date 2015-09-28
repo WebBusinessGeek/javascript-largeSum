@@ -31,7 +31,13 @@ function Algorithm() {
         var returnValue = "";
         returnValue += value.toString().substring(0, integersToGet);
         return returnValue;
-    }
+    };
+
+    this.findXAmountOfCharactersFromSumOfBrokenString = function(stringToBreakUp, positionToBreakString, amountOfCharactersToReturnFromSum) {
+        var brokenString = this.breakStringIntoArray(stringToBreakUp, positionToBreakString);
+        var sumOfBrokenString = this.findSumOfStringIntegerArray(brokenString);
+        return this.getSpecifiedAmountOfIntegersFromValue(sumOfBrokenString, amountOfCharactersToReturnFromSum);
+    };
 
 
 

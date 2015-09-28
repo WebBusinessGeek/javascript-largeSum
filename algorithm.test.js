@@ -58,3 +58,18 @@ describe("getSpecifiedAmountOfIntegersFromValue", function() {
         expect(result).toBe(correct);
     });
 });
+
+describe("findXAmountOfCharactersFromSumOfBrokenString", function() {
+    it("should return 136 when arguments are '123456789'", function() {
+        var algo = new Algorithm();
+
+        var stringToBreakUp = "123456789";
+        var positionToBreakStringUp = 3;
+        var amountOfCharactersToReturnFromSum = 3;
+
+        var result = algo.findXAmountOfCharactersFromSumOfBrokenString(stringToBreakUp, positionToBreakStringUp, amountOfCharactersToReturnFromSum);
+        var correct = '136';
+
+        expect(result).toBe(correct);
+    });
+});
