@@ -47,3 +47,14 @@ describe("findSumOfStringIntegerArray", function() {
         expect(result).toBe(correct);
     });
 });
+
+describe("getSpecifiedAmountOfIntegersFromValue", function() {
+    it("should return '123' when '123456789' and 3 are the arguments", function() {
+        var value = 123456789;
+        var integersToGet = 3;
+        var algo = new Algorithm();
+        var result = algo.getSpecifiedAmountOfIntegersFromValue(value, integersToGet);
+        var correct = "123";
+        expect(result).toBe(correct);
+    });
+});

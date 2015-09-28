@@ -20,10 +20,16 @@ function Algorithm() {
     };
 
     this.findSumOfStringIntegerArray = function(arrayWithStringsToSum) {
-        returnValue = 0;
+        var returnValue = 0;
         for(var i = 0; i < arrayWithStringsToSum.length; i++) {
             returnValue += parseInt(arrayWithStringsToSum[i]);
         }
+        return returnValue;
+    };
+
+    this.getSpecifiedAmountOfIntegersFromValue = function(value, integersToGet) {
+        var returnValue = "";
+        returnValue += value.toString().substring(0, integersToGet);
         return returnValue;
     }
 
