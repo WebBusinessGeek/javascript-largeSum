@@ -26,8 +26,8 @@
           <file leaf-file-name="algorithm.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/algorithm.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5873261">
-                  <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+                <state vertical-scroll-proportion="0.80370945">
+                  <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -41,7 +41,7 @@
             <entry file="file://$PROJECT_DIR$/algorithm.test.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.7217929">
-                  <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+                  <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -185,8 +185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5873261">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.80370945">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -194,7 +194,7 @@
     <entry file="file://$PROJECT_DIR$/algorithm.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7217929">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
           <folding />
         </state>
       </provider>

@@ -35,5 +35,15 @@ describe("breakStringIntoArray", function() {
         correct.push("41122");
         correct.push("41122");
         expect(result).toEqual(correct);
-    })
+    });
+});
+
+describe("findSumOfStringIntegerArray", function() {
+    it("should return 1368 when ['123','456','789'] are used as argument", function() {
+        var arrayStringsToAdd = ["123", "456", "789"];
+        var algo = new Algorithm();
+        var result = algo.findSumOfStringIntegerArray(arrayStringsToAdd);
+        var correct = 1368;
+        expect(result).toBe(correct);
+    });
 });

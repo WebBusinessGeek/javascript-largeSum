@@ -19,4 +19,14 @@ function Algorithm() {
         return returnValue;
     };
 
+    this.findSumOfStringIntegerArray = function(arrayWithStringsToSum) {
+        returnValue = 0;
+        for(var i = 0; i < arrayWithStringsToSum.length; i++) {
+            returnValue += parseInt(arrayWithStringsToSum[i]);
+        }
+        return returnValue;
+    }
+
+
+
 }
